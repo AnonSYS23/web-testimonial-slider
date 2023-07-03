@@ -1,20 +1,74 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Testimonial Slider</title>
-        <link rel="stylesheet" href="/styles/styles.css">
-    </head>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+</head>
 <body>
-<div class="wrapper">
-    <div class="testimonial-container">
-</div>
-<div class="prev-button">
-    <img src="prev.png" alt="Previous Testimonial">
-</div>
-<div class="next-button">
-    <img src="next.png" alt="Next Testimonial">
-</div>
-</div>
-    <script src="/js/script.js"></script>
+    <header class="header">
+        <a class="logo" href="#">LOGO</a>
+
+        <ul class="menu">
+            <li class="li"><a href="#header" class="link">Home</a></li>
+            <li class="li"><a href="#slides" class="link">Testimony</a></li>
+            <li class="li"><a href="#" class="link">Contact</a></li>
+        </ul>
+
+        <div class="burger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main id="header">
+        <section class="box one">
+            <h3>Hello, my name is Jose Manuel</h3>
+            <h4>I'm a Web Developer Junior, are You looking for someone like that? Here I am</h4>
+            <div class="buttons">
+                <button type="button" id="contact">
+                    <a href="#slides">contact</a>
+                </button>
+                <button type="button" id="testimony">
+                    <a href="#slides">
+                        Testimonials
+                    </a> 
+                </button>
+            </div>
+        </section>
+
+
+
+        <section class="box two">
+            <div class="slide ones" id="slides">
+                <img src="./images/glasses girl.png" alt="glasses-girl">
+                <h3>Minerva Vails</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero fugit facilis, quod id voluptates harum delectus incidunt itaque consectetur sit repudiandae molestiae? Exercitationem fugiat dolor sint quidem similique. Vitae, dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis consequuntur tenetur officiis id assumenda ratione dicta explicabo tempora facere officia cum rem, et odio distinctio cupiditate temporibus consequatur! Doloribus, voluptates.</p>
+            </div>
+
+            <div class="slide twos">
+                <img src="./images/bald guy.png" alt="bald-guy">
+                <h3>Ryan Sorlano</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero fugit facilis, quod id voluptates harum delectus incidunt itaque consectetur sit repudiandae molestiae? Exercitationem fugiat dolor sint quidem similique. Vitae, dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis consequuntur tenetur officiis id assumenda ratione dicta explicabo tempora facere officia cum rem, et odio distinctio cupiditate temporibus consequatur! Doloribus, voluptates.</p>
+            </div>
+
+            <div class="slide threes">
+                <img src="./images/black girl.png" alt="black-girl">
+                <h3>Marie Rose Moore</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero fugit facilis, quod id voluptates harum delectus incidunt itaque consectetur sit repudiandae molestiae? Exercitationem fugiat dolor sint quidem similique. Vitae, dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis consequuntur tenetur officiis id assumenda ratione dicta explicabo tempora facere officia cum rem, et odio distinctio cupiditate temporibus consequatur! Doloribus, voluptates.</p>
+            </div>
+
+            <div class="slide fours">
+                <img src="./images/black and white dude.png" alt="black-and-white-dude">
+                <h3>Alexander Thruthwery</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero fugit facilis, quod id voluptates harum delectus incidunt itaque consectetur sit repudiandae molestiae? Exercitationem fugiat dolor sint quidem similique. Vitae, dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis consequuntur tenetur officiis id assumenda ratione dicta explicabo tempora facere officia cum rem, et odio distinctio cupiditate temporibus consequatur! Doloribus, voluptates.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
 </body>
 </html>
